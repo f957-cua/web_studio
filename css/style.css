@@ -66,6 +66,7 @@ main {
 .team-container {
     background-color: var(--secondary-section-bgc);
     padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .container-portfolio {
@@ -97,6 +98,7 @@ main {
     letter-spacing: 0.03em;
 
     text-decoration: none;
+    margin-bottom: 20px;
 }
 
 .logo-part {
@@ -144,6 +146,35 @@ main {
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+
+}
+
+.section-title-about {
+    
+    color: var(--title-text-color);
+    
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    margin-bottom: 50px;
+
+}
+
+
+.section-title-team {
+
+    color: var(--title-text-color);
+    
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    margin-bottom: 94px;
 }
 
 .undersection-title {
@@ -323,12 +354,11 @@ main {
 
     display: block;
     text-decoration: none;
-    padding-top: 9px;
+    margin-top: 9px;
 } 
 .link .adress {
 
     display: block;
-    padding-top: 20px;
 
     color: var(--hero-title-color);
     background-color: inherit;
@@ -497,6 +527,12 @@ ul {
 
 }
 
+.about-work-title {
+    display: flex;
+    justify-content: center;
+
+}
+
 .about-work-content {
     
     margin-right: 30px;
@@ -514,8 +550,6 @@ ul {
     width: 1230px;
     padding-left: 15px;
     padding-right: 15px;
-    padding-top: 94px;
-    padding-bottom: 94px;
     margin-left: auto;
     margin-right: auto;
 
