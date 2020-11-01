@@ -50,6 +50,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-bottom: 94px;
 }
 
 .portfolio-text {
@@ -536,7 +537,7 @@ ul {
 .about-work-content {
     
     margin-right: 30px;
-    margin-bottom: 94px;
+    
 }
 
 .about-work-content:last-child {
