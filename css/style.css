@@ -95,8 +95,11 @@ main {
 
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    margin-right: 30px;
 
+}
+
+.item-team + .item-team {
+    margin-left: 30px;
 }
 
 .social-list {
@@ -116,6 +119,7 @@ main {
     border-radius: 50%;
     background-color: var(--hero-title-color);
 }
+
 
 .footer-list-item {
 
@@ -155,7 +159,7 @@ main {
 }
 
 
-.footer-list-item + .footer-list-item , .social-list-item + .social-list-item {
+.list-item + .list-item {
 
     margin-left: 10px;
 }
