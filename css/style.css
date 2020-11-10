@@ -139,6 +139,10 @@ main {
     margin-right: 10px;
 }
 
+.mail {
+    margin-top: 2px;
+}
+
 .footer-list-item:focus , .footer-list-item:hover , .social-list-item:focus , .social-list-item:hover {
     --color1: var(--hero-title-color) ;
     background-color: var(--accent-color);
