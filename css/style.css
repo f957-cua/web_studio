@@ -30,10 +30,20 @@ button {
 /*section names*/
 
 .page-head {
+
+    position: fixed;
+    width: 100%;
+    height: auto;
+    z-index: 99;    
+
+    top: 0;
+    left: 50%;
+
+    transform: translate(-50%);
+
     background-color: var(--hero-title-color);
     border-bottom: 1px solid #ECECEC;
 }
-
 
 footer {
     background-color: var(--footer-bgc);
@@ -165,7 +175,7 @@ main {
 }
 
 .container-portfolio {
-    padding: 100px 15px 94px 15px;
+    padding: 180px 15px 94px 15px;
 }
 
 /*logo*/
@@ -507,6 +517,101 @@ main {
     color: var(--accent-color);
 }
 
+
+
+.item .current::after {
+    content: "";
+
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    bottom: 0;
+    left: 0;
+
+    background: var(--accent-color);
+    border-radius: 2px;
+}
+
+.link-nav .item {
+    position: relative;
+}
+
+.img-content {
+
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+}
+
+.img-describe {
+    position: absolute;
+    width: 100%;
+    min-height: 70px;
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    left: 0;
+    bottom: 0;
+
+    background-color: rgba(47, 48, 58, 0.8);
+}
+
+.works-describe {
+    position: absolute;
+    width: 100%;
+    min-height: 294px;
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    left: 0;
+    transform: translateY(0);
+    
+    background-color: rgba(33, 150, 243, 0.9);
+}
+
+.img-describe-text {
+
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    color: var(--hero-title-color);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.works-describe-text {
+
+    display: block;
+    position: absolute;
+    width: 322px;
+    height: 168px;
+
+    color: var(--hero-title-color);
+
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.56;
+    text-align: left;
+    letter-spacing: 0.03em;
+}
+
 /*second-page*/
 
 .button-filter {
@@ -644,6 +749,17 @@ ul {
     margin-bottom: 0;
 }
 
+.works-item-link {
+    text-decoration: none;
+}
+
+.works-img-describe {
+    position: relative;
+    overflow: hidden;
+    width: 370px;
+    height: 294px;
+}
+
 .container-feature {
     display: flex;
     flex-wrap: wrap;
@@ -751,8 +867,11 @@ ul {
 }
 
 .about-work-content {
-    
-    margin-right: 30px; 
+    position: relative;
+
+    margin-right: 30px;
+    width: 370px;
+    height: 294px; 
 }
 
 .about-work-content:last-child {
