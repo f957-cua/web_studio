@@ -38,7 +38,18 @@
     <main>
             <div id="studio" class="studio">
                 <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-                <button type="button" class="button">Заказать услугу</button>
+                <button type="button" class="button" data-modal-open>Заказать услугу</button>
+                <div class="backdrop is-hidden" data-modal>
+                    <div class="modal">
+                        <p>
+                        </p>
+                        <button class="data-modal-close" data-modal-close>
+                            <svg width="30px" height="30px">
+                                <use href="./image/sprite.svg#icon-close"></use>
+                            </svg>
+                            </button>
+                    </div>
+                </div>
             </div>
        <section class="portfolio-text">
            <h2></h2>
@@ -354,5 +365,7 @@
             </ul>
         </div>
     </footer>
+    <script src="./js/modal.js">
+    </script>
 </body>
 </html>
