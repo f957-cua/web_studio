@@ -156,10 +156,7 @@ ul {
 }
 
 .works-item {
-  margin-top: 15px;
-  margin-bottom: 15px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 15px;
   box-sizing: border-box;
   border: 1px solid var(--primary-section-bgc);
   background-color: var(--hero-title-color);
@@ -1222,6 +1219,8 @@ main {
 .container-team-client {
   display: block;
   flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 30px;
 }
 

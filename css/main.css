@@ -1017,6 +1017,8 @@ main {
 .container-team-client {
   display: block;
   flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 30px;
 }
 
