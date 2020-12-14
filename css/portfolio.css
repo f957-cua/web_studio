@@ -69,6 +69,8 @@ ul {
 
 .filter-nav {
   display: flex;
+  margin-left: auto;
+  margin-right: auto;
   flex-wrap: wrap;
   padding-left: 15px;
   padding-right: 15px;
@@ -121,12 +123,6 @@ ul {
   margin-top: 15px;
 }
 
-/*
-.btn-list:not(:last-child) {
-    margin-right: 8px;
-    margin-top: 15px;
-}
-*/
 .button-filter:hover,
 .button-filter:focus {
   background-color: var(--accent-color);
@@ -136,6 +132,8 @@ ul {
 .container-works {
   display: flex;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
   flex-wrap: wrap;
 }
 
@@ -158,7 +156,10 @@ ul {
 }
 
 .works-item {
-  margin: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
   box-sizing: border-box;
   border: 1px solid var(--primary-section-bgc);
   background-color: var(--hero-title-color);
@@ -525,7 +526,7 @@ main {
 
 .hero-title {
   display: block;
-  width: 696px;
+  width: auto;
   height: 120px;
   margin-bottom: 30px;
   color: var(--hero-title-color);
@@ -790,6 +791,8 @@ main {
   padding-right: 15px;
   padding-top: 60px;
   padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (min-width: 768px) {
@@ -814,7 +817,10 @@ main {
 }
 
 .flex-container {
-  margin: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media screen and (min-width: 480px) {
@@ -999,6 +1005,8 @@ main {
 }
 
 .container-team {
+  margin-left: auto;
+  margin-right: auto;
   padding-bottom: 30px;
 }
 
@@ -1147,7 +1155,7 @@ main {
 }
 
 .container-team-client {
-  display: flex;
+  display: block;
   flex-wrap: wrap;
   padding-bottom: 30px;
 }
@@ -1155,6 +1163,7 @@ main {
 @media screen and (min-width: 480px) {
   .container-team-client {
     width: 480px;
+    display: flex;
   }
 }
 
@@ -1172,7 +1181,10 @@ main {
 
 .item-team {
   background-color: var(--hero-title-color);
-  margin: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 @media screen and (min-width: 480px) {

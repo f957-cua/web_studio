@@ -6,7 +6,9 @@
 
 .filter-nav {
     display: flex;
-    
+    margin-left: auto;
+    margin-right: auto;
+
     flex-wrap: wrap;
 
     @media screen and (min-width: 480px) {
@@ -63,13 +65,6 @@
     margin-top: 15px;
 }
 
-/*
-.btn-list:not(:last-child) {
-    margin-right: 8px;
-    margin-top: 15px;
-}
-*/
-
 
 .button-filter:hover ,
 .button-filter:focus {
@@ -81,6 +76,10 @@
 
     display: flex;
     align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+
     //justify-content: space-between;
     flex-wrap: wrap;
 
@@ -95,15 +94,17 @@
     @media screen and (min-width: 1200px) {
         width: 1200px;
     }
-    //width: 1200px;
-    //margin-left: auto;
-    //margin-right: auto;
+    
     
 }
 
 .works-item {
 
-    margin: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+
     box-sizing: border-box;
 
     @media screen and (min-width: 480px) {
