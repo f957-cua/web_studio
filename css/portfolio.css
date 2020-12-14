@@ -504,7 +504,7 @@ main {
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .contact-nav {
     flex-direction: column;
   }
@@ -588,14 +588,19 @@ main {
 }
 
 .menu-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: absolute;
+  top: 8px;
+  right: 8px;
   width: 40px;
   height: 40px;
-  color: var(--hero-title-color);
-  background-color: var(--accent-color);
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  background-color: inherit;
+  color: inherit;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
 }
 
 @media screen and (min-width: 768px) {
