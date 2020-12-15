@@ -971,6 +971,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 24px;
 }
 
 .footer-social-list {
