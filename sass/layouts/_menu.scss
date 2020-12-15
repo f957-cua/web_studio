@@ -82,3 +82,12 @@
 .item a {
     text-decoration: none;
 }
+
+.icon {
+    display: inline-block;
+
+    stroke-width: 0;
+    stroke: #212121;
+    fill: #212121;
+    background-color: #fff;
+  }
