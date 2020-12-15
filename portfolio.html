@@ -11,14 +11,42 @@
     <header class="page-head">
         <div class="container">
                 <a href="./index.html" class="logo"><span class="logo-part">Web</span>Studio</a>
-                <nav>
-                <ul class=link-nav>
-                    <li class="item"><a href="./index.html">Студия</a></li>
-                    <li class="item"><a href="./portfolio.html" class="current">Портфолио</a></li>
-                    <li class="item"><a href="#contacts">Контакты</a></li>
-                </ul>
-                </nav>
-                <div class="contact-nav">
+                        <nav>
+                            <ul class=link-nav>
+                                <li class="item"><a href="./index.html" class="current">Студия</a></li>
+                                <li class="item"><a href="./portfolio.html">Портфолио</a></li>
+                                <li class="item"><a href="#contacts">Контакты</a></li>
+                            </ul>
+                        </nav>
+                        <div class="contact-nav">
+                <a href="mailto:info@devstudio.com" class="contact">
+                    <svg class="contact-nav-logo mail" width="16px" height="11px">
+                        <use href="./image/sprite.svg#icon-envelope"></use>
+                    </svg>
+                    <span>info@devstudio.com</span>
+                </a>
+                <a href="tel:+380961111111" class="contact">
+                    <svg class="contact-nav-logo" width="10px" height="15px">
+                        <use href="./image/sprite.svg#icon-phone"></use>
+                    </svg>    
+                    <span>+38 096 111 11 11</span>
+                </a>
+                        </div>
+            <button type="button" class="menu-button is-open" aria-expanded="false" aria-controls="menu-container" data-menu-button>
+                <svg width="40" height="40" aria-label="переключатель мобильного меню">
+                    <use class="icon-menu" href="./img/sprite.svg#icon-menu_40px"></use>
+                    <use class="icon-cross" href="./img/sprite.svg#icon-close_40px"></use>
+                </svg>
+            </button>
+            <div class="menu-container is-open" id="menu-container" data-menu>
+                <div class="navigation">
+                    <ul class=link-navigation>
+                        <li class="item"><a href="./index.html" class="current">Студия</a></li>
+                        <li class="item"><a href="./portfolio.html">Портфолио</a></li>
+                        <li class="item"><a href="#contacts">Контакты</a></li>
+                    </ul>
+                </div>
+                <div class="contact-navigation">
                     <a href="mailto:info@devstudio.com" class="contact">
                         <svg class="contact-nav-logo mail" width="16px" height="11px">
                             <use href="./image/sprite.svg#icon-envelope"></use>
@@ -32,6 +60,7 @@
                         <span>+38 096 111 11 11</span>
                     </a>
                 </div>
+            </div>
         </div>
     </header>
     <main>
@@ -54,7 +83,9 @@
                                 <li>
                                     <div class="works-img-describe">
                                         <div class="img-content">
-                                            <img src="./image/page_2/img_20.jpg"  width="100%" height="294" class="works-img" alt="Технокряк">
+                                            <img  
+                                            srcset="./image/page_2/img_20.jpg 1x, ./image/page_2/img_20@2x.jpg 2x"
+                                            src="./image/page_2/img_20.jpg"  width="100%" height="294" class="works-img" alt="Технокряк">
                                         </div>
                                         <div class="works-describe">
                                             <p class="works-describe-text">
@@ -80,7 +111,9 @@
                                 <li>
                                     <div class="works-img-describe">
                                         <div class="img-content">
-                                            <img src="./image/page_2/img_21.jpg"  width="100%" height="294" class="works-img" alt="Постер New Orlean vs Golden Star">
+                                            <img  
+                                            srcset="./image/page_2/img_21.jpg 1x, ./image/page_2/img_21@2x.jpg 2x"
+                                            src="./image/page_2/img_21.jpg"  width="100%" height="294" class="works-img" alt="Постер New Orlean vs Golden Star">
                                         </div>
                                         <div class="works-describe">
                                             <p class="works-describe-text">
@@ -106,7 +139,9 @@
                                 <li>
                                     <div class="works-img-describe">
                                         <div class="img-content">
-                                            <img src="./image/page_2/img_22.jpg"  width="100%" height="294" class="works-img" alt="Ресторан Seafood">
+                                            <img  
+                                            srcset="./image/page_2/img_22.jpg 1x, ./image/page_2/img_22@2x.jpg 2x"
+                                            src="./image/page_2/img_22.jpg"  width="100%" height="294" class="works-img" alt="Ресторан Seafood">
                                         </div>
                                         <div class="works-describe">
                                             <p class="works-describe-text">
@@ -132,7 +167,9 @@
                                 <li>
                                     <div class="works-img-describe">
                                         <div class="img-content">
-                                            <img src="./image/page_2/img_23.jpg"  width="100%" height="294" class="works-img" alt="Проект Prime">
+                                            <img  
+                                            srcset="./image/page_2/img_23.jpg 1x, ./image/page_2/img_23@2x.jpg 2x"
+                                            src="./image/page_2/img_23.jpg"  width="100%" height="294" class="works-img" alt="Проект Prime">
                                         </div>
                                         <div class="works-describe">
                                             <p class="works-describe-text">
@@ -158,7 +195,9 @@
                                 <li>
                                     <div class="works-img-describe">
                                         <div class="img-content">
-                                            <img src="./image/page_2/img_24.jpg"  width="100%" height="294" class="works-img" alt="Проект Boxes">
+                                            <img  
+                                            srcset="./image/page_2/img_24.jpg 1x, ./image/page_2/img_24@2x.jpg 2x"
+                                            src="./image/page_2/img_24.jpg"  width="100%" height="294" class="works-img" alt="Проект Boxes">
                                         </div>
                                         <div class="works-describe">
                                             <p class="works-describe-text">
@@ -184,7 +223,9 @@
                                 <li>
                                     <div class="works-img-describe">
                                         <div class="img-content">
-                                            <img src="./image/page_2/img_25.jpg"  width="100%" height="294" class="works-img" alt="Inspiration has no Borders">
+                                            <img  
+                                            srcset="./image/page_2/img_25.jpg 1x, ./image/page_2/img_25@2x.jpg 2x"
+                                            src="./image/page_2/img_25.jpg"  width="100%" height="294" class="works-img" alt="Inspiration has no Borders">
                                         </div>
                                         <div class="works-describe">
                                             <p class="works-describe-text">
@@ -210,7 +251,9 @@
                                 <li>
                                     <div class="works-img-describe">
                                         <div class="img-content">
-                                            <img src="./image/page_2/img_26.jpg"  width="100%" height="294" class="works-img" alt="Издание Limited Edition">
+                                            <img  
+                                            srcset="./image/page_2/img_26.jpg 1x, ./image/page_2/img_26@2x.jpg 2x"
+                                            src="./image/page_2/img_26.jpg"  width="100%" height="294" class="works-img" alt="Издание Limited Edition">
                                         </div>
                                         <div class="works-describe">
                                             <p class="works-describe-text">
@@ -236,7 +279,9 @@
                                 <li>
                                     <div class="works-img-describe">
                                         <div class="img-content">
-                                            <img src="./image/page_2/img_27.jpg"  width="100%" height="294" class="works-img" alt="Проект LAB">
+                                            <img  
+                                            srcset="./image/page_2/img_27.jpg 1x, ./image/page_2/img_27@2x.jpg 2x"
+                                            src="./image/page_2/img_27.jpg"  width="100%" height="294" class="works-img" alt="Проект LAB">
                                         </div>
                                         <div class="works-describe">
                                             <p class="works-describe-text">
@@ -262,7 +307,9 @@
                                 <li>
                                     <div class="works-img-describe">
                                         <div class="img-content">
-                                            <img src="./image/page_2/img_28.jpg"  width="100%" height="294" class="works-img" alt="Growing Business">
+                                            <img 
+                                            srcset="./image/page_2/img_28.jpg 1x, ./image/page_2/img_28@2x.jpg 2x"
+                                            src="./image/page_2/img_28.jpg"  width="100%" height="294" class="works-img" alt="Growing Business">
                                         </div>
                                         <div class="works-describe">
                                             <p class="works-describe-text">
@@ -348,5 +395,7 @@
             </div>
         </form>
     </footer>
+    <script src="./js/menu.js">
+    </script>
 </body>
 </html>

@@ -110,8 +110,12 @@ footer {
 
 .footer-form input {
 
-    width: 450px;
+    width: auto;
     height: 50px;
+
+    @media screen and (min-width: 480px) {
+        width: 450px;
+    }
 
     @media screen and (min-width: 1200px) {
         width: 358px;
