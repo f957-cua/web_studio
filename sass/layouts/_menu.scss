@@ -12,16 +12,16 @@
     }
 }
 
-.menu-button .icon-cross {
+.menu-button .menu-icon {
     display: none;
 }
 
-.menu-button.is-open .icon-cross {
+.menu-button.is-open .close-icon {
+    display: none;
+}
+
+.menu-button.is-open .menu-icon {
     display: block;
-}
-
-.menu-button.is-open .icon-menu {
-    display: none;
 }
 
 .container-mobile {
@@ -86,8 +86,18 @@
 .icon {
     display: inline-block;
 
-    stroke-width: 0;
-    stroke: #212121;
-    fill: #212121;
+    //stroke-width: 0;
+    //stroke: #212121;
+    //fill: #212121;
     background-color: #fff;
   }
+
+  .icon-open {
+    fill: #212121;
+  }
+
+  .icon-close {
+    fill: #212121;
+  }
+/*
+  */
