@@ -32,7 +32,7 @@
 }
 
 .menu-container {
-    display: none;
+    display: block;
 
     position: absolute;
     top: 100%;
@@ -48,12 +48,13 @@
     font-size: 20px;
 
     &.is-open {
-        display: block;
-        @media screen and (min-width: 768px) {
-            display: none;
-        }
+        display: none;
+        
     }
 
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
     
 }
 

@@ -1279,7 +1279,7 @@ footer {
 }
 
 .menu-container {
-  display: none;
+  display: block;
   position: absolute;
   top: 100%;
   left: 0;
@@ -1292,11 +1292,11 @@ footer {
 }
 
 .menu-container.is-open {
-  display: block;
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
-  .menu-container.is-open {
+  .menu-container {
     display: none;
   }
 }
